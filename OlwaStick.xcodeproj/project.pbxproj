@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF77055C26C19F8F0097FBBC /* OlwaStickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */; };
+		FF77055E26C19F8F0097FBBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77055D26C19F8F0097FBBC /* ContentView.swift */; };
+		FF77056026C19F920097FBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF77055F26C19F920097FBBC /* Assets.xcassets */; };
+		FF77056326C19F920097FBBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF77056226C19F920097FBBC /* Preview Assets.xcassets */; };
+		FF77056E26C19F920097FBBC /* OlwaStickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77056D26C19F920097FBBC /* OlwaStickTests.swift */; };
+		FF77057926C19F930097FBBC /* OlwaStickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77057826C19F930097FBBC /* OlwaStickUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF77056A26C19F920097FBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF77055026C19F8F0097FBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF77055726C19F8F0097FBBC;
+			remoteInfo = OlwaStick;
+		};
+		FF77057526C19F930097FBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF77055026C19F8F0097FBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF77055726C19F8F0097FBBC;
+			remoteInfo = OlwaStick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF77055826C19F8F0097FBBC /* OlwaStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlwaStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlwaStickApp.swift; sourceTree = "<group>"; };
+		FF77055D26C19F8F0097FBBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF77055F26C19F920097FBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF77056226C19F920097FBBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF77056426C19F920097FBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF77056926C19F920097FBBC /* OlwaStickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlwaStickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF77056D26C19F920097FBBC /* OlwaStickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlwaStickTests.swift; sourceTree = "<group>"; };
+		FF77056F26C19F920097FBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF77057426C19F930097FBBC /* OlwaStickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlwaStickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF77057826C19F930097FBBC /* OlwaStickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlwaStickUITests.swift; sourceTree = "<group>"; };
+		FF77057A26C19F930097FBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF77055526C19F8F0097FBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF77056626C19F920097FBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF77057126C19F930097FBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF77054F26C19F8F0097FBBC = {
+			isa = PBXGroup;
+			children = (
+				FF77055A26C19F8F0097FBBC /* OlwaStick */,
+				FF77056C26C19F920097FBBC /* OlwaStickTests */,
+				FF77057726C19F930097FBBC /* OlwaStickUITests */,
+				FF77055926C19F8F0097FBBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF77055926C19F8F0097FBBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF77055826C19F8F0097FBBC /* OlwaStick.app */,
+				FF77056926C19F920097FBBC /* OlwaStickTests.xctest */,
+				FF77057426C19F930097FBBC /* OlwaStickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF77055A26C19F8F0097FBBC /* OlwaStick */ = {
+			isa = PBXGroup;
+			children = (
+				FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */,
+				FF77055D26C19F8F0097FBBC /* ContentView.swift */,
+				FF77055F26C19F920097FBBC /* Assets.xcassets */,
+				FF77056426C19F920097FBBC /* Info.plist */,
+				FF77056126C19F920097FBBC /* Preview Content */,
+			);
+			path = OlwaStick;
+			sourceTree = "<group>";
+		};
+		FF77056126C19F920097FBBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF77056226C19F920097FBBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF77056C26C19F920097FBBC /* OlwaStickTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF77056D26C19F920097FBBC /* OlwaStickTests.swift */,
+				FF77056F26C19F920097FBBC /* Info.plist */,
+			);
+			path = OlwaStickTests;
+			sourceTree = "<group>";
+		};
+		FF77057726C19F930097FBBC /* OlwaStickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF77057826C19F930097FBBC /* OlwaStickUITests.swift */,
+				FF77057A26C19F930097FBBC /* Info.plist */,
+			);
+			path = OlwaStickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF77055726C19F8F0097FBBC /* OlwaStick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF77057D26C19F930097FBBC /* Build configuration list for PBXNativeTarget "OlwaStick" */;
+			buildPhases = (
+				FF77055426C19F8F0097FBBC /* Sources */,
+				FF77055526C19F8F0097FBBC /* Frameworks */,
+				FF77055626C19F8F0097FBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlwaStick;
+			productName = OlwaStick;
+			productReference = FF77055826C19F8F0097FBBC /* OlwaStick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF77056826C19F920097FBBC /* OlwaStickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF77058026C19F930097FBBC /* Build configuration list for PBXNativeTarget "OlwaStickTests" */;
+			buildPhases = (
+				FF77056526C19F920097FBBC /* Sources */,
+				FF77056626C19F920097FBBC /* Frameworks */,
+				FF77056726C19F920097FBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF77056B26C19F920097FBBC /* PBXTargetDependency */,
+			);
+			name = OlwaStickTests;
+			productName = OlwaStickTests;
+			productReference = FF77056926C19F920097FBBC /* OlwaStickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF77057326C19F930097FBBC /* OlwaStickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF77058326C19F930097FBBC /* Build configuration list for PBXNativeTarget "OlwaStickUITests" */;
+			buildPhases = (
+				FF77057026C19F930097FBBC /* Sources */,
+				FF77057126C19F930097FBBC /* Frameworks */,
+				FF77057226C19F930097FBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF77057626C19F930097FBBC /* PBXTargetDependency */,
+			);
+			name = OlwaStickUITests;
+			productName = OlwaStickUITests;
+			productReference = FF77057426C19F930097FBBC /* OlwaStickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF77055026C19F8F0097FBBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FF77055726C19F8F0097FBBC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FF77056826C19F920097FBBC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FF77055726C19F8F0097FBBC;
+					};
+					FF77057326C19F930097FBBC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FF77055726C19F8F0097FBBC;
+					};
+				};
+			};
+			buildConfigurationList = FF77055326C19F8F0097FBBC /* Build configuration list for PBXProject "OlwaStick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF77054F26C19F8F0097FBBC;
+			productRefGroup = FF77055926C19F8F0097FBBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF77055726C19F8F0097FBBC /* OlwaStick */,
+				FF77056826C19F920097FBBC /* OlwaStickTests */,
+				FF77057326C19F930097FBBC /* OlwaStickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF77055626C19F8F0097FBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF77056326C19F920097FBBC /* Preview Assets.xcassets in Resources */,
+				FF77056026C19F920097FBBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF77056726C19F920097FBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF77057226C19F930097FBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF77055426C19F8F0097FBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF77055E26C19F8F0097FBBC /* ContentView.swift in Sources */,
+				FF77055C26C19F8F0097FBBC /* OlwaStickApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF77056526C19F920097FBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF77056E26C19F920097FBBC /* OlwaStickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF77057026C19F930097FBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF77057926C19F930097FBBC /* OlwaStickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF77056B26C19F920097FBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF77055726C19F8F0097FBBC /* OlwaStick */;
+			targetProxy = FF77056A26C19F920097FBBC /* PBXContainerItemProxy */;
+		};
+		FF77057626C19F930097FBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF77055726C19F8F0097FBBC /* OlwaStick */;
+			targetProxy = FF77057526C19F930097FBBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF77057B26C19F930097FBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF77057C26C19F930097FBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF77057E26C19F930097FBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OlwaStick/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OlwaStick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlwaStd.OlwaStick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF77057F26C19F930097FBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OlwaStick/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OlwaStick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlwaStd.OlwaStick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF77058126C19F930097FBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OlwaStickTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlwaStd.OlwaStickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OlwaStick.app/OlwaStick";
+			};
+			name = Debug;
+		};
+		FF77058226C19F930097FBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OlwaStickTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlwaStd.OlwaStickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OlwaStick.app/OlwaStick";
+			};
+			name = Release;
+		};
+		FF77058426C19F930097FBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OlwaStickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlwaStd.OlwaStickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OlwaStick;
+			};
+			name = Debug;
+		};
+		FF77058526C19F930097FBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OlwaStickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlwaStd.OlwaStickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OlwaStick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF77055326C19F8F0097FBBC /* Build configuration list for PBXProject "OlwaStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF77057B26C19F930097FBBC /* Debug */,
+				FF77057C26C19F930097FBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF77057D26C19F930097FBBC /* Build configuration list for PBXNativeTarget "OlwaStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF77057E26C19F930097FBBC /* Debug */,
+				FF77057F26C19F930097FBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF77058026C19F930097FBBC /* Build configuration list for PBXNativeTarget "OlwaStickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF77058126C19F930097FBBC /* Debug */,
+				FF77058226C19F930097FBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF77058326C19F930097FBBC /* Build configuration list for PBXNativeTarget "OlwaStickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF77058426C19F930097FBBC /* Debug */,
+				FF77058526C19F930097FBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF77055026C19F8F0097FBBC /* Project object */;
+}
