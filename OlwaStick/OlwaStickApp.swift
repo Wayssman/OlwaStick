@@ -11,8 +11,7 @@ import SwiftUI
 struct OlwaStickApp: App {
     var body: some Scene {
         WindowGroup {
-          WeSplit()
+            TimeConversions()
         }
     }
-  
 }

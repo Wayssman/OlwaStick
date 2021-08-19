@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF624E6D26CEE045007C5CE7 /* UnitConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF624E6C26CEE045007C5CE7 /* UnitConversions.swift */; };
 		FF77055C26C19F8F0097FBBC /* OlwaStickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */; };
 		FF77055E26C19F8F0097FBBC /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77055D26C19F8F0097FBBC /* WeSplit.swift */; };
 		FF77056026C19F920097FBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF77055F26C19F920097FBBC /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF624E6C26CEE045007C5CE7 /* UnitConversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversions.swift; sourceTree = "<group>"; };
 		FF77055826C19F8F0097FBBC /* OlwaStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlwaStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlwaStickApp.swift; sourceTree = "<group>"; };
 		FF77055D26C19F8F0097FBBC /* WeSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplit.swift; sourceTree = "<group>"; };
@@ -95,8 +97,9 @@
 		FF77055A26C19F8F0097FBBC /* OlwaStick */ = {
 			isa = PBXGroup;
 			children = (
-				FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */,
+				FF624E6C26CEE045007C5CE7 /* UnitConversions.swift */,
 				FF77055D26C19F8F0097FBBC /* WeSplit.swift */,
+				FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */,
 				FF77055F26C19F920097FBBC /* Assets.xcassets */,
 				FF77056426C19F920097FBBC /* Info.plist */,
 				FF77056126C19F920097FBBC /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF624E6D26CEE045007C5CE7 /* UnitConversions.swift in Sources */,
 				FF77055E26C19F8F0097FBBC /* WeSplit.swift in Sources */,
 				FF77055C26C19F8F0097FBBC /* OlwaStickApp.swift in Sources */,
 			);
