@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF624E6D26CEE045007C5CE7 /* UnitConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF624E6C26CEE045007C5CE7 /* UnitConversions.swift */; };
+		FF624E6F26CEEE25007C5CE7 /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF624E6E26CEEE25007C5CE7 /* GuessTheFlag.swift */; };
 		FF77055C26C19F8F0097FBBC /* OlwaStickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */; };
-		FF77055E26C19F8F0097FBBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77055D26C19F8F0097FBBC /* ContentView.swift */; };
+		FF77055E26C19F8F0097FBBC /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77055D26C19F8F0097FBBC /* WeSplit.swift */; };
 		FF77056026C19F920097FBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF77055F26C19F920097FBBC /* Assets.xcassets */; };
 		FF77056326C19F920097FBBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF77056226C19F920097FBBC /* Preview Assets.xcassets */; };
 		FF77056E26C19F920097FBBC /* OlwaStickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77056D26C19F920097FBBC /* OlwaStickTests.swift */; };
@@ -33,9 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF624E6C26CEE045007C5CE7 /* UnitConversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversions.swift; sourceTree = "<group>"; };
+		FF624E6E26CEEE25007C5CE7 /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		FF77055826C19F8F0097FBBC /* OlwaStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlwaStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlwaStickApp.swift; sourceTree = "<group>"; };
-		FF77055D26C19F8F0097FBBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF77055D26C19F8F0097FBBC /* WeSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplit.swift; sourceTree = "<group>"; };
 		FF77055F26C19F920097FBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF77056226C19F920097FBBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF77056426C19F920097FBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,8 +99,10 @@
 		FF77055A26C19F8F0097FBBC /* OlwaStick */ = {
 			isa = PBXGroup;
 			children = (
+				FF624E6E26CEEE25007C5CE7 /* GuessTheFlag.swift */,
+				FF624E6C26CEE045007C5CE7 /* UnitConversions.swift */,
+				FF77055D26C19F8F0097FBBC /* WeSplit.swift */,
 				FF77055B26C19F8F0097FBBC /* OlwaStickApp.swift */,
-				FF77055D26C19F8F0097FBBC /* ContentView.swift */,
 				FF77055F26C19F920097FBBC /* Assets.xcassets */,
 				FF77056426C19F920097FBBC /* Info.plist */,
 				FF77056126C19F920097FBBC /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF77055E26C19F8F0097FBBC /* ContentView.swift in Sources */,
+				FF624E6D26CEE045007C5CE7 /* UnitConversions.swift in Sources */,
+				FF77055E26C19F8F0097FBBC /* WeSplit.swift in Sources */,
 				FF77055C26C19F8F0097FBBC /* OlwaStickApp.swift in Sources */,
+				FF624E6F26CEEE25007C5CE7 /* GuessTheFlag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
